@@ -13,6 +13,7 @@ const Header = () => {
     }
 
     return (
+        // Header starts here
         <div className='bg-white p-4 md:py-10 md:px-20'>
             <header className="mx-auto container px-4 xl:px-0">
                 <div className="flex items-center justify-between">
@@ -46,7 +47,7 @@ const Header = () => {
             <section className="mt-8 sm:mt-24 lg:mt-56 mx-auto container py-12 lg:px-4 xl:px-0 mx-auto container ">
                 <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row">
                     <div className="flex flex-col lg:w-6/12 md:w-6/12 px-4 lg:px-0 justify-center items-start">
-                        <p className="text-2xl text-gray-800 font-light">Hi! I’am <span className="custom-foreground-color">Johathan Iverson</span> and</p>
+                        <p className="text-2xl text-gray-800 font-light">Hello there! I’am <span className="text-indigo-700">Omar Montoya</span> and</p>
                         <h1 className="text-5xl sm:text-6xl md:text-4xl lg:text-6xl font-extrabold leading-tight text-gray-800">I’ll Help You Build Your Dream</h1>
                         <p className="text-lg text-gray-600 font-light leading-relaxed pt-8">In quo quaerimus, non provident, similique sunt in voluptate et inter argumentum conclusionemque. Tum dicere exorsus est et quasi architecto beatae vitae dicta sunt, explicabo nemo. Certe inquam, pertinax non emolumento</p>
                         <button className="Sf-ui-pro mt-10 flex items-center text-xl custom-foreground-color font-regular custom-border-bottom pb-2 mr-3 focus:outline-none">
@@ -67,6 +68,7 @@ const Header = () => {
                 </div>
             </section>
         </div>
+        // Header ends here
     )
 }
 
