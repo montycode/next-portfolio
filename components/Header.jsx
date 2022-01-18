@@ -90,7 +90,7 @@ const Header = () => {
                     </div>
                 </div>
             </header>
-            <section className="mt-8 sm:mt-24 lg:mt-56 mx-auto container py-12 lg:px-4 xl:px-0 mx-auto container ">
+            <section className="mt-8 sm:mt-24 lg:mt-56 mx-auto container py-12 lg:px-4 xl:px-0">
                 <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row">
                     <div className="flex flex-col lg:w-6/12 md:w-6/12 px-4 lg:px-0 justify-center items-start">
                         <p className="text-2xl text-gray-800 dark:text-white font-light">Hello there! I’am <span className="text-indigo-700 dark:text-violet-700">Omar Montoya</span> and</p>
