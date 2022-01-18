@@ -60,7 +60,7 @@ const Header = () => {
                             </div>
                             <ul className="flex md:flex text-3xl md:text-base lg:text-base lg:flex flex-col md:flex-row lg:flex-row justify-center items-center fixed md:relative lg:relative top-0 bottom-0 left-0 right-0 bg-white dark:bg-slate-800 z-20">
                                 <li className="md:mr-8 lg:mr-10 flex items-center">
-                                    <span className="text-gray-800 hover:text-gray-600 dark:text-white dark:hover:text-violet-500 pt-10 md:pt-0 cursor-pointer" >About</span>
+                                    <a href='#projects' className="text-gray-800 hover:text-gray-600 dark:text-white dark:hover:text-violet-500 pt-10 md:pt-0 cursor-pointer" >Projects</a>
                                 </li>
                             </ul>
                         </div>
