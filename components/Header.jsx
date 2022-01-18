@@ -60,24 +60,24 @@ const Header = () => {
                             </div>
                             <ul className="flex md:flex text-3xl md:text-base lg:text-base lg:flex flex-col md:flex-row lg:flex-row justify-center items-center fixed md:relative lg:relative top-0 bottom-0 left-0 right-0 bg-white dark:bg-slate-800 z-20">
                                 <li className="md:mr-8 lg:mr-10 flex items-center">
-                                    <span className="text-gray-800 hover:text-gray-600 dark:text-white dark:hover:text-violet-300 pt-10 md:pt-0 cursor-pointer" >About</span>
+                                    <span className="text-gray-800 hover:text-gray-600 dark:text-white dark:hover:text-violet-500 pt-10 md:pt-0 cursor-pointer" >About</span>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div className='hidden md:flex justify-start sm:justify-start xl:justify-end'>
                         <Link href="/" passHref>
-                            <NavLink className="p-4 text-gray-700 dark:text-violet-500">
+                            <NavLink className="p-4 text-gray-700 dark:text-white dark:hover:text-violet-500">
                                 <BsInstagram className='h-6 w-6' />
                             </NavLink>
                         </Link>
                         <Link href="/" passHref>
-                            <NavLink className="p-4 text-gray-700 dark:text-violet-500">
+                            <NavLink className="p-4 text-gray-700 dark:text-white dark:hover:text-violet-500">
                                 <BsTwitter className='h-6 w-6' />
                             </NavLink>
                         </Link>
                         <Link href="/" passHref>
-                            <NavLink className="p-4 text-gray-700 dark:text-violet-500">
+                            <NavLink className="p-4 text-gray-700 dark:text-white dark:hover:text-violet-500">
                                 <BsGithub className='h-6 w-6' />
                             </NavLink>
                         </Link>
