@@ -33,7 +33,7 @@ const Header = () => {
 
     return (
         // Header starts here
-        <div className='bg-white dark:bg-slate-800 p-4 md:py-10 md:px-20'>
+        <div className='bg-white dark:bg-gradient-to-r dark:from-gray-900 dark:to-slate-800 p-4 md:py-10 md:px-20'>
             <header className="mx-auto container px-4 xl:px-0">
                 <div className="flex items-center justify-between">
                     <Link href="/" passHref>

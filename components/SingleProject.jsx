@@ -1,12 +1,13 @@
 import { BsGithub, BsFillCaretRightFill } from 'react-icons/bs';
+import Image from 'next/image';
 
 const SingleProject = ({ id, image, title, description, tags = [], source, visit }) => {
     return (        
         <div className="mx-2 w-72 lg:mb-0 mb-8 shadow shadow-lg" key={id}>
             <div>
-                <img src={image} className="w-full object-cover h-44" />
+                <Image src={image} className="w-full object-cover h-44" width={100} height={64} priority layout='responsive' />
             </div>
-            <div className="bg-gray-100 dark:bg-slate-700">
+            <div className="bg-gray-100 dark:bg-slate-800 transition duration-300 ease-in-out hover:shadow hover:shadow-xl cursor-pointer dark:hover:bg-gray-900">
                 <div className="p-4">
                     <div className="flex items-center">
                         <h2 className="text-lg font-semibold dark:text-white">{title}</h2>
