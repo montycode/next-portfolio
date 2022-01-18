@@ -58,9 +58,9 @@ const Header = () => {
                                     <line x1="6" y1="6" x2="18" y2="18" />
                                 </svg>
                             </div>
-                            <ul className="flex md:flex text-3xl md:text-base lg:text-base lg:flex flex-col md:flex-row lg:flex-row justify-center items-center fixed md:relative lg:relative top-0 bottom-0 left-0 right-0 z-20">
+                            <ul className="flex md:flex text-3xl md:text-base lg:text-base lg:flex flex-col md:flex-row lg:flex-row justify-center items-center fixed md:relative lg:relative top-0 bottom-0 left-0 right-0 bg-white dark:bg-slate-800 z-20">
                                 <li className="md:mr-8 lg:mr-10 flex items-center">
-                                    <span className="text-gray-800 hover:text-gray-600 pt-10 md:pt-0 cursor-pointer" >About</span>
+                                    <span className="text-gray-800 hover:text-gray-600 dark:text-white dark:hover:text-violet-300 pt-10 md:pt-0 cursor-pointer" >About</span>
                                 </li>
                             </ul>
                         </div>
@@ -111,7 +111,7 @@ const Header = () => {
                     </div>
                     <div className="xl-w-11/12 sm:w-1/2 mt-8 sm:mt-0">
                         <div className="flex items-center justify-center sm:justify-end w-full">
-                            <Image loading="lazy" className="w-3/5" src={Banner} alt="header image" />
+                            <Image loading="lazy" className="w-3/5" src={WhiteBanner} alt="header image" />
                         </div>
                     </div>
                 </div>
