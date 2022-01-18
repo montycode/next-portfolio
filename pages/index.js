@@ -1,11 +1,12 @@
 import styles from '../styles/Home.module.css'
-import { Header, Projects } from '../components';
+import { Header, Projects, Technologies } from '../components';
 
 const Home = () => {
   return (
     <div>
       <Header />
       <Projects />
+      <Technologies />
     </div>
   )
 };
