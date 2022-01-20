@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { BsSunFill, BsMoonStars, BsInstagram, BsTwitter, BsGithub } from 'react-icons/bs';
+import { MyLink } from '.';
 
 import Image from 'next/image'
 import Link from 'next/link'
@@ -10,13 +11,6 @@ import Logo from '../public/images/logo.png';
 import Banner from '../public/images/banner.png';
 import WhiteBanner from '../public/images/white_banner.png';
 
-const NavLink = React.forwardRef(({ onClick, href, children, className}, ref) => {
-    return (
-      <a href={href} onClick={onClick} ref={ref} className={className}>
-        {children}
-      </a>
-    )
-})
 
 const Header = () => {
     const [showMenu, setShowMenu] = useState(false);
@@ -37,9 +31,9 @@ const Header = () => {
             <header className="mx-auto container px-4 xl:px-0">
                 <div className="flex items-center justify-between">
                     <Link href="/" passHref>
-                        <NavLink className="w-36">
+                        <MyLink className="w-36">
                             <Image className="object-cover" src={colorTheme === 'light' ? OutlineLogo : Logo} alt="Logo" />
-                        </NavLink>
+                        </MyLink>
                     </Link>
                     <div className="">
                         <div onClick={handleMenu} className="sm:block md:hidden lg:hidden text-gray-500 hover:text-gray-700 focus:text-gray-700 focus:outline-none">
@@ -67,19 +61,19 @@ const Header = () => {
                     </div>
                     <div className='hidden md:flex justify-start sm:justify-start xl:justify-end'>
                         <Link href="/" passHref>
-                            <NavLink className="p-4 text-gray-700 dark:text-white dark:hover:text-violet-500">
+                            <MyLink className="p-4 text-gray-700 dark:text-white dark:hover:text-violet-500">
                                 <BsInstagram className='h-6 w-6' />
-                            </NavLink>
+                            </MyLink>
                         </Link>
                         <Link href="/" passHref>
-                            <NavLink className="p-4 text-gray-700 dark:text-white dark:hover:text-violet-500">
+                            <MyLink className="p-4 text-gray-700 dark:text-white dark:hover:text-violet-500">
                                 <BsTwitter className='h-6 w-6' />
-                            </NavLink>
+                            </MyLink>
                         </Link>
                         <Link href="/" passHref>
-                            <NavLink className="p-4 text-gray-700 dark:text-white dark:hover:text-violet-500">
+                            <MyLink className="p-4 text-gray-700 dark:text-white dark:hover:text-violet-500">
                                 <BsGithub className='h-6 w-6' />
-                            </NavLink>
+                            </MyLink>
                         </Link>
                         <button 
                             onClick={handleTheme}
